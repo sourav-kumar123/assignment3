@@ -1,0 +1,61 @@
+
+tr:nth-child(odd) {
+    background-color: #dddddd;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    
+    text-align: center;  
+    
+    padding: 6px;
+  }
+ 
+tr:nth-child(1){
+    background-color: darkgray;
+    
+}
+table{
+    table-layout:fixed;
+    width: 50%;
+}
+@media only screen and (max-width: 1270px){
+    table{
+        
+        width: 56%;
+    }
+}
+@media only screen and (max-width: 1060px){
+    table{
+        
+        width: 65%;
+    }
+}
+@media only screen and (max-width: 850px){
+    table{
+        
+        width: 77%;
+    }
+}
+@media only screen and (max-width: 700px){
+    table{
+        
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 550px){
+    table{
+        
+        width: 100%;
+    }
+    table, th, td { 
+        font-size: 10px;
+        padding: 1px;
+        
+      }
+     
+
+}
+
+
